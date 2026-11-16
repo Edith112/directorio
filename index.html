@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hecho por Manos Juarenses — Directorio Creativo</title>
+    <!-- Tipografía Inter desde Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Vinculación con el archivo CSS -->
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <!-- Barra de Navegación Superior -->
+    <header class="navbar">
+        <div class="brand">
+            <span class="globe-icon">🌐</span>
+            <span class="brand-name">CONOCE A TU DISEÑADOR // JRZ</span>
+        </div>
+
+        <nav class="nav-pills">
+            <button id="acercaBtn" class="pill-btn">Acerca de</button>
+            <a href="#directorio" class="pill-btn">Directorio</a>
+            <a href="https://forms.gle/UXc4tdWtkbHVSjiG7" class="pill-btn">Unirse</a>
+            <button id="darkModeToggle" class="pill-btn dark-mode-btn" title="Cambiar modo oscuro">🌙 Modo Oscuro</button>
+        </nav>
+
+        <a href="#contacto" class="cta-dark">Conectemos</a>
+        <!-- Recuadro Modal "Acerca de" -->
+            
+    </header>
+
+    <!-- Sección Principal (Hero) -->
+    <main class="hero-grid">
+        <div class="hero-left">
+            <div class="blue-hero-card">
+                <h1>Hecho por<br>Manos<br>Juarenses</h1>
+            </div>
+
+            <!-- Patrón decorativo de cuadrícula magenta -->
+            <div class="magenta-grid-pattern" aria-hidden="true">
+                <div class="grid-block block-1"></div>
+                <div class="grid-block block-2"></div>
+                <div class="grid-block block-3"></div>
+                <div class="grid-block block-4"></div>
+            </div>
+
+            <div class="hero-left-footer">
+                <p class="tagline">Impulsando el talento local.<br>Diseño real hecho por personas.</p>
+                <a href="#directorio" class="underline-link">Explorar Directorio ↓</a>
+            </div>
+        </div>
+
+        <div class="hero-right">
+            <aside class="quick-nav-box">
+                <div class="quick-nav-header">
+                    <span>Acceso Rápido por Rama</span>
+                    <span>2026</span>
+                </div>
+                <ul class="quick-nav-list">
+                    <li>
+                        <a href="#diseno-grafico">
+                            <span class="dot dot-lime"></span>
+                            <span class="cat-title">Diseñadores Gráficos</span>
+                            <span class="cat-count">02 Perfiles</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#ilustradores">
+                            <span class="dot dot-magenta"></span>
+                            <span class="cat-title">Ilustradores</span>
+                            <span class="cat-count">04 Perfiles</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#otras-ramas">
+                            <span class="dot dot-gray"></span>
+                            <span class="cat-title">3D, Empaque y Fotografía</span>
+                            <span class="cat-count">02 Perfiles</span>
+                        </a>
+                    </li>
+                </ul>
+            </aside>
+
+            <div class="featured-photo">
+                <img src="https://instagram.fcuu1-1.fna.fbcdn.net/v/t51.75761-15/505136867_18029942456660981_6065559247172261432_n.webp?_nc_cat=110&amp;_nc_map=urlgen_bucketless&amp;ig_cache_key=MzY0OTgxMDExODIzOTMwMTg5OA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQzOS5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=Yd59B4lmfZQQ7kNvwEfp3CY&amp;_nc_oc=AdrLK2DarzQI9EKVKJvYmnTOWTRoL5wdjXVox35ILFrLzywCxjeSrwRtlpYWVNnZ4PhMVsEESEsd5gdS3FzGi77h&amp;_nc_zt=23&amp;_nc_ht=instagram.fcuu1-1.fna&amp;_nc_gid=aqifcXJsc5tmuABryM5A9w&amp;_nc_ss=7b6a8&amp;_nc_ct=RQosPBUIFQIlBAAAAA&amp;oh=00_AQQJASLHk6QrFtcsYBGNvmR3wRpum_tFW1TKBZvE-1B95A&amp;oe=6AFFF63E" alt="Artista local trabajando en su estudio en Ciudad Juárez">
+                <div class="photo-caption">Talento Local — Ciudad Juárez, Chih.</div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Barra Sticky de Navegación Rápida entre Secciones -->
+    <div id="directorio" class="sticky-category-bar">
+        <span class="bar-label">Saltar a sección:</span>
+        <div class="bar-links">
+            <a href="#diseno-grafico" class="jump-pill"><span class="dot dot-lime"></span> Diseño Gráfico</a>
+            <a href="#ilustradores" class="jump-pill"><span class="dot dot-magenta"></span> Ilustración</a>
+            <a href="#otras-ramas" class="jump-pill"><span class="dot dot-gray"></span> Otras Ramas</a>
+        </div>
+    </div>
+
+    <!-- =========================================================
+         GUÍA: ¿CÓMO PEDIR UNA COTIZACIÓN?
+         ========================================================= -->
+    <section class="quote-guide-wrapper">
+        <div class="quote-guide-box">
+            <div class="quote-guide-header">
+                <span class="guide-badge">GUÍA RÁPIDA PARA CLIENTES</span>
+                <h2>¿Cómo pedir una cotización? <span>(4 pasos sencillos)</span></h2>
+                <p class="quote-intro">
+                    Si nunca has contratado a un diseñador y no sabes por dónde empezar, no te preocupes. 
+                    Solo ten a la mano estos 4 datos antes de mandar mensaje:
+                </p>
+            </div>
+
+            <div class="quote-steps-grid">
+                <!-- Paso 1 -->
+                <div class="quote-step-card">
+                    <div class="step-number">01</div>
+                    <h3>Cuéntanos qué necesitas y de qué es tu negocio</h3>
+                    <p>No tienes que saber términos de diseño. Solo explícanos con tus palabras qué vendes, quiénes son tus clientes y qué pieza buscas (por ejemplo: <em>"Tengo un puesto de burritos y necesito un logotipo"</em> o <em>"Tengo una estética y ocupo una lona con mis precios"</em>).</p>
+                </div>
+
+                <!-- Paso 2 -->
+                <div class="quote-step-card">
+                    <div class="step-number">02</div>
+                    <h3>Muestra ejemplos de lo que te gusta</h3>
+                    <p>Si viste algún diseño, color o estilo que te llamó la atención en internet o en la calle, tómale captura o foto. Eso nos ayuda mucho a entender qué estilo quieres para tu marca (y qué cosas plano no te gustan).</p>
+                </div>
+
+                <!-- Paso 3 -->
+                <div class="quote-step-card">
+                    <div class="step-number">03</div>
+                    <h3>Dinos para cuándo lo ocupas y tu presupuesto aproximado</h3>
+                    <p>Avísanos si tienes alguna fecha límite (como la inauguración de tu local o una promoción de fin de semana) y cuánto tienes pensado invertir. Así el diseñador te puede ofrecer una opción que se ajuste a tus tiempos y a tu bolsillo.</p>
+                </div>
+
+                <!-- Paso 4 -->
+                <div class="quote-step-card">
+                    <div class="step-number">04</div>
+                    <h3>Elige a tu diseñador y mándale mensaje</h3>
+                    <p>Revisa los portafolios de aquí abajo, escoge al que más te guste su estilo y dale clic a su botón de WhatsApp o Instagram para mandarle estos datos y que te arme tu cotización sin compromiso.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================================================
+         SECCIÓN 1: DISEÑADORES GRÁFICOS
+         ========================================================= -->
+    <section id="diseno-grafico" class="directory-section">
+        <div class="section-header">
+            <div class="section-title-group">
+                <span class="dot dot-lime large-dot"></span>
+                <h2>Diseñadores Gráficos</h2>
+            </div>
+            <p class="section-desc">Identidad visual, branding estratégico, diseño editorial y sistemas gráficos para comercios locales.</p>
+        </div>
+
+        <div class="showcase-list">
+            <!-- Tarjeta Perfil 1 -->
+            <article class="showcase-card">
+                <div class="showcase-info">
+                    <div class="badge-featured">
+                        <span class="crown-icon">✦</span> DISEÑADOR DISPONIBLE
+                    </div>
+
+                    <div class="avatar-wrapper">
+                        <img src="daniel/Screenshot_4.png" alt="Carlos Estrada" class="showcase-avatar">
+                        <span class="status-dot" title="Disponible para proyectos"></span>
+                    </div>
+
+                    <h3>Daniel González</h3>
+                    <p class="showcase-role">Branding, Identidad Visual & Diseño Editorial</p>
+                    <p class="showcase-bio">Especialista en sistemas visuales de alto impacto, manuales de identidad corporativa y diseño editorial para marcas culturales y comercios en Ciudad Juárez.</p>
+
+                    <div class="showcase-tags">
+                        <span>#Branding</span>
+                        <span>#Editorial</span>
+                        <span>#Fotografía</span>
+                    </div>
+
+                    <a href="https://www.instagram.com/daniel_gm_01/?hl=es" class="showcase-cta">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                        Contactar al Diseñador
+                    </a>
+                </div>
+
+                <div class="showcase-gallery-col">
+                    <span class="gallery-label">PROYECTOS DESTACADOS</span>
+                    <div class="showcase-projects">
+                        <div class="project-thumb">
+                            <img src="daniel/Screenshot_1.png" alt="Proyecto Branding Café Frontera">
+                        </div>
+                        <div class="project-thumb">
+                            <img src="daniel/Screenshot_2.png" alt="Catálogo Cultural 2026">
+                        </div>
+                        <div class="project-thumb">
+                            <img src="daniel/Screenshot_3.png" alt="Sistema Tipográfico Norte">
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Tarjeta Perfil 2 -->
+            <article class="showcase-card">
+                <div class="showcase-info">
+                    <div class="badge-available">
+                        <span class="spark-icon">✦</span> DISEÑADOR DISPONIBLE
+                    </div>
+
+                    <div class="avatar-wrapper">
+                        <img src="calos/logo.png" alt="Fernanda Ríos" class="showcase-avatar">
+                        <span class="status-dot" title="Disponible para proyectos"></span>
+                    </div>
+
+                    <h3>Rinkai</h3>
+                    <p class="showcase-role">Branding, Identidad Visual & Diseño Editorial</p>
+                    <p class="showcase-bio">Especialista en sistemas visuales de alto impacto, manuales de identidad corporativa y diseño editorial para marcas culturales y comercios en Ciudad Juárez.</p>
+
+                    <div class="showcase-tags">
+                        <span>#Editorial</span>
+                        <span>#Branding</span>
+                        <span>#Freelancer</span>
+                    </div>
+
+                    <a href="mailto:al227526@alumnos.uacj.mx" class="showcase-cta">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                        Contactar al Diseñador
+                    </a>
+                </div>
+
+                <div class="showcase-gallery-col">
+                    <span class="gallery-label">PROYECTOS DESTACADOS</span>
+                    <div class="showcase-projects">
+                        <div class="project-thumb">
+                            <img src="calos/Screenshot_1.png" alt="Festival Gráfico JRZ">
+                        </div>
+                        <div class="project-thumb">
+                            <img src="calos/Screenshot_3.png" alt="Identidad Bazar Local">
+                        </div>
+                        <div class="project-thumb">
+                            <img src="calos/Screenshot_6.png" alt="Gráfica Experimental">
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="showcase-card">
+                <div class="showcase-info">
+                    <div class="badge-featured">
+                        <span class="crown-icon">✦</span> DISEÑADORA DISPONIBLE
+                    </div>
+
+                    <div class="avatar-wrapper">
+                        <img src="mio/icono.png" alt="Carlos Estrada" class="showcase-avatar">
+                        <span class="status-dot" title="Disponible para proyectos"></span>
+                    </div>
+
+                    <h3>RoPand</h3>
+                    <p class="showcase-role">Branding, Identidad Visual & Diseño Editorial</p>
+                    <p class="showcase-bio">Especialista en sistemas visuales de alto impacto, manuales de identidad corporativa y diseño editorial para marcas culturales y comercios en Ciudad Juárez.</p>
+
+                    <div class="showcase-tags">
+                        <span>#Branding</span>
+                        <span>#Editorial</span>
+                        <span>#Fotografía</span>
+                    </div>
+
+                    <a href="mailto:edithcastillo525@gmail.com" class="showcase-cta">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                        Contactar al Diseñador
+                    </a>
+                </div>
+
+                <div class="showcase-gallery-col">
+                    <span class="gallery-label">PROYECTOS DESTACADOS</span>
+                    <div class="showcase-projects">
+                        <div class="project-thumb">
+                            <img src="mio/Screenshot_4.png" alt="Proyecto Branding Café Frontera">
+                        </div>
+                        <div class="project-thumb">
+                            <img src="mio/Screenshot_5.png" alt="Catálogo Cultural 2026">
+                        </div>
+                        <div class="project-thumb">
+                            <img src="mio/ejemplo grande 2.png" alt="Sistema Tipográfico Norte">
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- =========================================================
+         SECCIÓN 2: ILUSTRADORES
+         ========================================================= -->
+    <section id="ilustradores" class="directory-section">
+        <div class="section-header">
+            <div class="section-title-group">
+                <span class="dot dot-magenta large-dot"></span>
+                <h2>Ilustradores</h2>
+            </div>
+            <p class="section-desc">Ilustración digital, diseño de personajes, arte conceptual, muralismo y narrativa visual personalizada.</p>
+        </div>
+
+        <div class="showcase-list">
+            <!-- Tarjeta Perfil 1 (Igual a tu imagen de referencia) -->
+            <article class="showcase-card">
+                <div class="showcase-info">
+                    <div class="badge-featured">
+                        <span class="crown-icon">✦</span> COMISIONES ABIERTAS
+                    </div>
+
+                    <div class="avatar-wrapper">
+                        <img src="https://scontent.cdninstagram.com/v/t51.82787-19/754068895_18078945632660981_6265064841518302155_n.jpg?_nc_cat=106&ig_cache_key=GJ8t8iz1LVmMtDpAAMvDfJVH_-FWbmNDAQAB0j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=STA-gOoCg0MQ7kNvwGOunPX&_nc_oc=Adp6ejOnm7QynHMb1JJKFoMJ91yPKCzDNZvW1lKrGjXx9_SwURgJVatJkjeif4ldS0Q&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=levHICBMNluG_9RIsEHp5A&_nc_ss=7b6a8&_nc_ct=RQosPBUCFQIAAAA&oh=00_AQQQ4ZbdCxbTaUSEQB3KPQQg66msN3QCo7Is88jumoIzKw&oe=6AFFF3ED" alt="Valeria Mendoza" class="showcase-avatar">
+                        <span class="status-dot" title="Disponible para comisiones"></span>
+                    </div>
+
+                    <h3>
+                        abr.a91
+                    </h3>
+                    <p class="showcase-role">Ilustradora</p>
+                    <p class="showcase-bio">Especialista en cuadros personalizados al oleo.</p>
+
+                    <div class="showcase-tags">
+                        <span>#Pintora</span>
+                        <span>#Ilustradora</span>
+                        <span>#Pintoreo</span>
+                    </div>
+
+                    <a href="https://www.instagram.com/abr.a91/?hl=es" target="_blank" rel="noopener noreferrer" class="showcase-cta">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                            Contactar en Instagram
+                    </a>
+                </div>
+
+                <div class="showcase-gallery-col">
+                    <span class="gallery-label">PROYECTOS DESTACADOS</span>
+                    <div class="showcase-projects">
+                        <div class="project-thumb">
+                            <img src="https://instagram.fcuu1-1.fna.fbcdn.net/v/t51.75761-15/505136867_18029942456660981_6065559247172261432_n.webp?_nc_cat=110&amp;_nc_map=urlgen_bucketless&amp;ig_cache_key=MzY0OTgxMDExODIzOTMwMTg5OA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQzOS5zZHIucmVndWxhcl9waG90by5DMyJ9&amp;_nc_ohc=Yd59B4lmfZQQ7kNvwEfp3CY&amp;_nc_oc=AdrLK2DarzQI9EKVKJvYmnTOWTRoL5wdjXVox35ILFrLzywCxjeSrwRtlpYWVNnZ4PhMVsEESEsd5gdS3FzGi77h&amp;_nc_zt=23&amp;_nc_ht=instagram.fcuu1-1.fna&amp;_nc_gid=aqifcXJsc5tmuABryM5A9w&amp;_nc_ss=7b6a8&amp;_nc_ct=RQosPBUIFQIlBAAAAA&amp;oh=00_AQQJASLHk6QrFtcsYBGNvmR3wRpum_tFW1TKBZvE-1B95A&amp;oe=6AFFF63E" alt="Ondas Cromáticas">
+                            
+                        </div>
+                        <div class="project-thumb">
+                            <img src="https://instagram.fcuu1-1.fna.fbcdn.net/v/t51.82787-15/729805305_18074740466660981_1324222796195356686_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ig_cache_key=MzkxNjA0MjA3Mzc1NzE4NTI2OTE4MDc0NzQwNDYzNjYwOTgx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjU0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=qNh4nYbBiJcQ7kNvwFfi8Dn&_nc_oc=AdqbHPT_v6CMQMrUiu7i9nqrN_TubxfVi1rpapqTDJ7NRvEw162IfJCv1JeA3JdqhtKDnV1FvvfIO5mH9i8mG5Td&_nc_zt=23&_nc_ht=instagram.fcuu1-1.fna&_nc_gid=aqifcXJsc5tmuABryM5A9w&_nc_ss=7b6a8&_nc_ct=RQosPBUIFQQlBAAAAA&oh=00_AQTPFyIHDG1vAJbUfLoms7B58GAFPHeK5aMri3CyM3_XHg&oe=6B00151E" alt="Criaturas Nocturnas">
+                            
+                        </div>
+                        <div class="project-thumb">
+                            <img src="https://instagram.fcuu1-1.fna.fbcdn.net/v/t51.82787-15/817297177_18087894464660981_1459222692468640422_n.jpg?stp=dst-jpegr_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ig_cache_key=Mzk5MDU1NzczMzAzMTM0NzA4MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ0MC5oZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=UJw5KBSQ0TIQ7kNvwFcH6Lt&_nc_oc=Ado7bnJa9cOFdkuQ9an2_Q5rxe6ryE3vp4IIAaD7hUSSUHzCuJ11yEHsn_YwBpbLk0denHqXNLNvwRqYTk7UA1Gr&_nc_zt=23&_nc_ht=instagram.fcuu1-1.fna&_nc_gid=aqifcXJsc5tmuABryM5A9w&_nc_ss=7b6a8&_nc_ct=RQosPBUIFQIlAgAAAA&oh=00_AQTxfFV6nxw8R1S9uJ2pxvRQntxvAeqKtpaC0sjAadiwDw&oe=6B0009F2" alt="Nebulosa Abstracta">
+                            
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Tarjeta Perfil 2 -->
+            <article class="showcase-card">
+                <div class="showcase-info">
+                    <div class="badge-available">
+                        <span class="spark-icon">✦</span> COMISIONES ABIERTAS
+                    </div>
+
+                    <div class="avatar-wrapper">
+                        <img src="https://scontent-elp3-1.cdninstagram.com/v/t51.2885-19/100942290_241945163805648_9070381599509446656_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ig_cache_key=GNJBBAbQM4s-DNwAAAAAAAACeOB9bkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy42MTIuQzMifQ%3D%3D&_nc_ohc=MXtLpGe5vnoQ7kNvwHsLpzQ&_nc_oc=AdpKncG7jB0HluS-2r_I1sQoU_AjW3_T4KBgBXKeZMActR3CsfheVfAxDj1FtX1WFlm279Yc1XO7r-3EN-uJVyju&_nc_zt=24&_nc_ht=scontent-elp3-1.cdninstagram.com&_nc_ss=7b6a8&_nc_ct=RQosPBUCFQIAAAA&oh=00_AQQugewU8iMDkjPsvnqHGFhmRulK4lLCAi1EbCQsdiF-qQ&oe=6B0006E9" class="showcase-avatar">
+                        <span class="status-dot" title="Disponible para comisiones"></span>
+                    </div>
+
+                    <h3>Digitalpeperonni</h3>
+                    <p class="showcase-role">Ilustración Digital, OCs & Gráfica Personalizada</p>
+                    <p class="showcase-bio">Creación de personajes originales (OCs), arte estilizado de alto contraste, mercancía ilustrada y piezas personalizadas hechas a mano.</p>
+
+                    <div class="showcase-tags">
+                        <span>#CharacterDesign</span>
+                        <span>#IlustraciónDigital</span>
+                        <span>#Merchandising</span>
+                        <span>#ArtePersonalizado</span>
+                    </div>
+
+                    <a href="https://www.instagram.com/digitalpeperonni/?hl=es" target="_blank" rel="noopener noreferrer" class="showcase-cta">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                            Contactar en Instagram
+                    </a>
+                </div>
+
+                <div class="showcase-gallery-col">
+                    <span class="gallery-label">PROYECTOS DESTACADOS</span>
+                    <div class="showcase-projects">
+                        <div class="project-thumb">
+                            <img src="https://instagram.fcuu1-1.fna.fbcdn.net/v/t51.82787-15/654907764_18092171207135542_7380969927885914337_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ig_cache_key=MzE4MTEwMTI4NTA2MzIyMjIyNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=PRRsP9TUp8wQ7kNvwHz2bAg&_nc_oc=Adr8Dsd9DXLD3dthCjFXNrmZdi9NDDDS0qmU2moiY9eL_1NI5J_5t4vtbDdBnOpQDIe0P1zeF2vIpqGyiOxG8E7h&_nc_zt=23&_nc_ht=instagram.fcuu1-1.fna&_nc_gid=au1HC26Bp8gvtzFr4mkolA&_nc_ss=7b6a8&_nc_ct=RQosPBUIFQIlBAAAAA&oh=00_AQRmjp8nU97AHXlvH2c5hhPJ-RFNhTnb-qB-5UvtvOrSrQ&oe=6AFFF2F8" alt="Colección Personajes">
+                        </div>
+                        <div class="project-thumb">
+                            <img src="https://scontent-elp3-1.cdninstagram.com/v/t51.82787-15/514763440_18282279715257261_5353794032494941971_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ig_cache_key=MzY2NzMyNTY5MzEyOTQ3ODE2MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=PMFLSnnV3HcQ7kNvwH_O_p1&_nc_oc=AdrTLMvHolxM8S2BRXahKtysC6xwXDVoZuL_xMkyeLwNiuKXbkIrtgspIUNDaMGiVGtaazXBGacvlIGPg93hjXst&_nc_zt=23&_nc_ht=scontent-elp3-1.cdninstagram.com&_nc_gid=gYS1qqMWZGw5jKI45Qqq_A&_nc_ss=7b6a8&_nc_ct=RQosPBUIFQIlBAAAAA&oh=00_AQR9hIEmdA89JRLHO4UN_0sCgqSx7DDZDPm0Fnw4DOupvw&oe=6B001257" alt="Arte Conceptual">
+                        </div>
+                        <div class="project-thumb">
+                            <img src="https://scontent-elp3-1.cdninstagram.com/v/t51.82787-15/851887386_18344370982257261_7373787491281604704_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ig_cache_key=NDAwOTU1OTMwOTIxMzYyNzg2OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTYyMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=gHhwHSFlWDMQ7kNvwGTcLJ5&_nc_oc=AdrGSp1SW3nl34X-alw6OZz76NINr24llhRAh1YH2BCShauednwIqwS99y4OtiUjB_Duou729hArmDxuyLky6_ms&_nc_zt=23&_nc_ht=scontent-elp3-1.cdninstagram.com&_nc_gid=gYS1qqMWZGw5jKI45Qqq_A&_nc_ss=7b6a8&_nc_ct=RQosPBUIFQIlBAAAAA&oh=00_AQRFmXMfuRhCCV35OplA8A13pawZFcl8uv-LEsHxEfSr7w&oe=6B000FD8" alt="Stickers & Prints">
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="showcase-card">
+                <div class="showcase-info">
+                    <div class="badge-available">
+                        <span class="spark-icon">✦</span> COMISIONES ABIERTAS
+                    </div>
+
+                    <div class="avatar-wrapper">
+                        <img src="https://scontent.cdninstagram.com/v/t51.82787-19/627044554_18558260647060845_6623325721615560973_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=111&ig_cache_key=GMrwXyVtZYTFo_5BAA1xmuSmx_pbbmNDAQAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=sM90facAJsgQ7kNvwF47f6v&_nc_oc=Adr1sZDDkUrYVOvEIjK2XlhMwW3bdSwEYnFkl0r4u_MQSQt-JuPsE4dsueIkaavbxWXaz4SUkmxP8xa8SztDiY5i&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=j-bRELix8QT0ZF_y8hTigQ&_nc_ss=7b6a8&_nc_ct=RQosPBUCFQIAAAA&oh=00_AQQAQuINzLi3haVQ3NtVxfxv50Z-3gsRT3EV3dS3Qdp3Pw&oe=6B0010A0" class="showcase-avatar">
+                        <span class="status-dot" title="Disponible para comisiones"></span>
+                    </div>
+
+                    <h3>Kiccat</h3>
+                    <p class="showcase-role">Ilustración Digital, OCs & Gráfica Personalizada</p>
+                    <p class="showcase-bio">Creación de personajes originales (OCs), arte estilizado de alto contraste, mercancía ilustrada y piezas personalizadas hechas a mano.</p>
+
+                    <div class="showcase-tags">
+                        <span>#CharacterDesign</span>
+                        <span>#IlustraciónDigital</span>
+                        <span>#Merchandising</span>
+                        <span>#ArtePersonalizado</span>
+                    </div>
+
+                    <a href="https://www.instagram.com/kiccat/?hl=es" target="_blank" rel="noopener noreferrer" class="showcase-cta">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                            Contactar en Instagram
+                    </a>
+                </div>
+
+                <div class="showcase-gallery-col">
+                    <span class="gallery-label">PROYECTOS DESTACADOS</span>
+                    <div class="showcase-projects">
+                        <div class="project-thumb">
+                            <img src="https://instagram.fcuu1-1.fna.fbcdn.net/v/t51.82787-15/661409620_18578263333060845_9155333939565727011_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ig_cache_key=Mzg3NDY0Njc3ODEyMDg5MDg1OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNTAwLnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=KTXsXnGezMoQ7kNvwFQ4LYQ&_nc_oc=AdqVvlQvO6paBO0_Pr2i-uUz-rb4H3JZC8Bf43HD9CeYuOsbaAt5WXSLDja_wEXpcvNzhGU3b0j12VxC9fS8ZvFN&_nc_zt=23&_nc_ht=instagram.fcuu1-1.fna&_nc_gid=Ac1uhujSg_uSYGaIVZybhA&_nc_ss=7b6a8&_nc_ct=RQosPBUIFQIlBAAAAA&oh=00_AQQFvZUsFqfDmQR46wi1Hbn5V1NNb5nfp6PC951YHVjdHA&oe=6AFFFE89" alt="Colección Personajes">
+                        </div>
+                        <div class="project-thumb">
+                            <img src="https://instagram.fcuu1-1.fna.fbcdn.net/v/t51.82787-15/604939791_18548402443060845_1070048216036444475_n.webp?_nc_cat=100&_nc_map=urlgen_bucketless&ig_cache_key=Mzc5NTA2OTY0MDM0MzU2MTg0OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=C5mL5DZO4f8Q7kNvwFNeKlz&_nc_oc=AdooAwKcjegI8ArQ97KZ3CRQn87gTN35_oBxaYT45wYtBxD3kmSSmwLs0KD7M10I65FROVxsTswNf466gtvcwbM4&_nc_zt=23&_nc_ht=instagram.fcuu1-1.fna&_nc_gid=zsnoTxT6cF32TwWl801byg&_nc_ss=7b6a8&_nc_ct=RQosPBUIFQIlBAAAAA&oh=00_AQS91KPxWotek6-FM7VsxuOmabYth2ksgAuF77QYISLysQ&oe=6B00179E" alt="Arte Conceptual">
+                        </div>
+                        <div class="project-thumb">
+                            <img src="https://instagram.fcuu1-1.fna.fbcdn.net/v/t51.82787-15/656282997_18076358180532655_5579654080397582058_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=MzUxNDY5MzU1MDY5NzYzODM4NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=FWQ_0nHgBZYQ7kNvwE5Wr5S&_nc_oc=Adq5aj_qR0cNSQQwzGkBZZ7FCIGlT_svyZYMbSz4UPtYvT88mZGPGfc3Hw-VJUcAx5Rwg-cD09zdR1CFikAndEbF&_nc_zt=23&_nc_ht=instagram.fcuu1-1.fna&_nc_gid=zsnoTxT6cF32TwWl801byg&_nc_ss=7b6a8&_nc_ct=RQosPBUIFQIlBAAAAA&oh=00_AQQ____RFckLkc0aGJttOWZ8yXQF7ED_PkVXTEiL_pyUHA&oe=6B000A58" alt="Stickers & Prints">
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="showcase-card">
+                <div class="showcase-info">
+                    <div class="badge-available">
+                        <span class="spark-icon">✦</span> COMISIONES ABIERTAS
+                    </div>
+
+                    <div class="avatar-wrapper">
+                        <img src="leti/leti.jpg" class="showcase-avatar">
+                        <span class="status-dot" title="Disponible para comisiones"></span>
+                    </div>
+
+                    <h3>Letisenpai</h3>
+                    <p class="showcase-role">Ilustración Digital & OCs</p>
+                    <p class="showcase-bio">Creación de personajes originales (OCs).</p>
+
+                    <div class="showcase-tags">
+                        <span>#CharacterDesign</span>
+                        <span>#IlustraciónDigital</span>
+                    </div>
+
+                    <a href="https://www.instagram.com/letisenpai/?hl=es" target="_blank" rel="noopener noreferrer" class="showcase-cta">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                            Contactar en Instagram
+                    </a>
+                </div>
+
+                <div class="showcase-gallery-col">
+                    <span class="gallery-label">PROYECTOS DESTACADOS</span>
+                    <div class="showcase-projects">
+                        <div class="project-thumb">
+                            <img src="leti/Screenshot_1.png" alt="">
+                        </div>
+                        <div class="project-thumb">
+                            <img src="leti/Screenshot_2.png" alt="">
+                        </div>
+                        <div class="project-thumb">
+                            <img src="leti/Screenshot_7.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- =========================================================
+         SECCIÓN 4: OTRAS RAMAS DEL DISEÑO
+         ========================================================= -->
+    <section id="otras-ramas" class="directory-section">
+        <div class="section-header">
+            <div class="section-title-group">
+                <span class="dot dot-gray large-dot"></span>
+                <h2>Otras Ramas (3D, Empaque & Fotografía)</h2>
+            </div>
+            <p class="section-desc">Modelado tridimensional, diseño estructural de envases sustentables y fotografía comercial de producto.</p>
+        </div>
+
+        <div class="showcase-list">
+            <!-- Tarjeta Perfil 1 -->
+            <article class="showcase-card">
+                <div class="showcase-info">
+                    <div class="badge-available">
+                        <span class="spark-icon">✦</span> AGENDA ABIERTA
+                    </div>
+
+                    <div class="avatar-wrapper">
+                        <img src="https://i.pinimg.com/736x/17/8e/d2/178ed2f07767ef0e495d737f8375b3ac.jpg" alt="Daniel Ortiz" class="showcase-avatar">
+                        <span class="status-dot"></span>
+                    </div>
+
+                    <h3>Adrian Montana</h3>
+                    <p class="showcase-role">Artista 3D, Texturizado & Packaging</p>
+                    <p class="showcase-bio">Modelado 3D, texturizado PBR, visualización de producto y desarrollo de empaques sustentables con enfoque ergonómico.</p>
+
+                    <div class="showcase-tags">
+                        <span>#Blender3D</span>
+                        <span>#Impresión 3D</span>
+                    </div>
+
+                    <a href="mailto:al223552@alumnos.uacj.mx" class="showcase-cta">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                        Contactar por correo
+                    </a>
+                </div>
+
+                <div class="showcase-gallery-col">
+                    <span class="gallery-label">PROYECTOS DESTACADOS</span>
+                    <div class="showcase-projects">
+                        <div class="project-thumb">
+                            <img src="adrian/Screenshot_1.png" alt="Render Escultórico 3D">
+                            <span class="project-title-overlay">Render Escultórico 3D</span>
+                        </div>
+                        <div class="project-thumb">
+                            <img src="adrian/Screenshot_2.png" alt="Prototipo Envase Biodegradable">
+                        </div>
+                        <div class="project-thumb">
+                            <img src="adrian/Screenshot_5.png" alt="Iluminación y Shaders">
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="showcase-card">
+                <div class="showcase-info">
+                    <div class="badge-available">
+                        <span class="spark-icon">✦</span> AGENDA ABIERTA
+                    </div>
+
+                    <div class="avatar-wrapper">
+                        <img src="mio/icono.png" class="showcase-avatar">
+                        <span class="status-dot" title="Disponible para comisiones"></span>
+                    </div>
+
+                    <h3>RoPand</h3>
+                    <p class="showcase-role">Fotografía</p>
+                    <p class="showcase-bio">Fotografía profesional de producto o modelos.</p>
+
+                    <div class="showcase-tags">
+                        <span>#Fotografía</span>
+                    </div>
+
+                    <a href="mailto:edithcastillo525@gmail.com" target="_blank" rel="noopener noreferrer" class="showcase-cta">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                            Contactar por correo
+                    </a>
+                </div>
+
+                <div class="showcase-gallery-col">
+                    <span class="gallery-label">PROYECTOS DESTACADOS</span>
+                    <div class="showcase-projects">
+                        <div class="project-thumb">
+                            <img src="mio/Screenshot_1.png" alt="Colección Personajes">
+                        </div>
+                        <div class="project-thumb">
+                            <img src="mio/Screenshot_2.png" alt="Arte Conceptual">
+                        </div>
+                        <div class="project-thumb">
+                            <img src="mio/Screenshot_3.png" alt="Stickers & Prints">
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+        
+    </section>
+
+    <!-- Recuadro Modal "Acerca de" -->
+    <div id="acercaModal" class="modal-overlay">
+        <div class="modal-content">
+            <button id="closeModal" class="close-modal-btn" title="Cerrar">&times;</button>
+            <h3>Acerca de este Directorio</h3>
+            <p><strong>Hecho por Manos Juarenses</strong> es un directorio independiente creado para conectar a diseñadores gráficos, ilustradores y creadores locales de Ciudad Juárez con proyectos reales y clientes de la comunidad.</p>
+            <p>Este espacio busca visibilizar el talento local y fortalecer la red de diseño en nuestra frontera.</p>
+        </div>
+    </div>
+
+    <!-- Pie de Página -->
+    <footer id="contacto" class="site-footer">
+        <div class="footer-content">
+            <div>
+                <h3>Hecho por Manos Juarenses</h3>
+                <p>Directorio independiente para conectar a diseñadores locales con proyectos reales en Ciudad Juárez.</p>
+            </div>
+            <div class="footer-cta">
+                <p>¿Eres diseñador/a en Juárez y quieres aparecer aquí?</p>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdY6QIC6__JALnTDqEdrmaeGVCxqi6pOfPwWexfxcJmm1kTkA/viewform?usp=header" class="btn-blue">Enviar mi perfil</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script para alternar el Modo Oscuro -->
+    <script>
+        // 1. Lógica para alternar el Modo Oscuro
+        const toggleBtn = document.getElementById('darkModeToggle');
+        const body = document.body;
+
+        if (localStorage.getItem('darkMode') === 'enabled') {
+            body.classList.add('dark-mode');
+            toggleBtn.textContent = '☀️ Modo Claro';
+        }
+
+        toggleBtn.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+            if (body.classList.contains('dark-mode')) {
+                localStorage.setItem('darkMode', 'enabled');
+                toggleBtn.textContent = '☀️ Modo Claro';
+            } else {
+                localStorage.setItem('darkMode', 'disabled');
+                toggleBtn.textContent = '🌙 Modo Oscuro';
+            }
+        });
+
+        // 2. Lógica para el modal "Acerca de"
+        const acercaBtn = document.getElementById('acercaBtn');
+        const acercaModal = document.getElementById('acercaModal');
+        const closeModal = document.getElementById('closeModal');
+
+        if (acercaBtn && acercaModal && closeModal) {
+            acercaBtn.addEventListener('click', () => {
+                acercaModal.classList.add('active');
+            });
+
+            closeModal.addEventListener('click', () => {
+                acercaModal.classList.remove('active');
+            });
+
+            acercaModal.addEventListener('click', (e) => {
+                if (e.target === acercaModal) {
+                    acercaModal.classList.remove('active');
+                }
+            });
+        }
+    </script>
+</body>
+</html>
